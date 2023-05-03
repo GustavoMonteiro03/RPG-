@@ -1,8 +1,9 @@
 public interface Personagem {
-    int Ataque();
-    int LançarFeitiço();
-    int getvida();
-    void setvida(int vida);
-    String getnome();
+    String getNome();
+    int getVida();
+    void setVida(int vida);
+    int getAtaque();
+    void setAtaque(int ataque);
 
+    void atacar(Personagem alvo);
 }
